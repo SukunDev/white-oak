@@ -656,10 +656,6 @@ video {
   right: 0px;
 }
 
-.bottom-0{
-  bottom: 0px;
-}
-
 .end-1{
   inset-inline-end: 0.25rem;
 }
@@ -827,10 +823,6 @@ video {
   display: none;
 }
 
-.h-96{
-  height: 24rem;
-}
-
 .h-screen{
   height: 100vh;
 }
@@ -845,10 +837,6 @@ video {
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
-}
-
-.w-full{
-  width: 100%;
 }
 
 .w-screen{
