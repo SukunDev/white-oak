@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Lively Wallpaper</title>
+  </head>
+  <body>
+    <video
+      class="object-cover w-screen h-screen"
+      id="animated-background"
+      src="media/live.webm"
+      autoplay
+      loop
+      muted
+    ></video>
+    <div class="fixed inset-x-0 text-center text-white top-16 font-fujimaru">
+      <p id="clocks" class="text-3xl -mb-7"></p>
+      <h2 id="days" class="text-9xl"></h2>
+      <p id="dates" class="mt-2 text-xl"></p>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
